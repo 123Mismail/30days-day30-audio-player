@@ -1,12 +1,13 @@
 
  
 import React from 'react'
-import ProfileViewer from './component/profileViewer'
+ 
+import FoodRecipe from './component/foodRecipe'
 
 const Page = () => {
   return (
-    <div >
-   <ProfileViewer/>
+    <div>
+   <FoodRecipe/>
     </div>
   )
 }

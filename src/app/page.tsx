@@ -1,13 +1,14 @@
 
  
+import QuizApp from '@/components/quizApp'
 import React from 'react'
  
-import FoodRecipe from './component/foodRecipe'
+ 
 
 const Page = () => {
   return (
     <div>
-   <FoodRecipe/>
+   <QuizApp/>
     </div>
   )
 }

@@ -1,14 +1,17 @@
 
  
-import QuizApp from '@/components/quizApp'
-import React from 'react'
+ 
+import CircularShapes from '@/components/circularShapes'
+import StopWatch from '@/components/StopWatch'
  
  
 
 const Page = () => {
   return (
     <div>
-   <QuizApp/>
+       <CircularShapes/>
+   {/* <StopWatch/> */}
+  
     </div>
   )
 }

@@ -1,17 +1,12 @@
 
  
  
-import CircularShapes from '@/components/circularShapes'
-import StopWatch from '@/components/StopWatch'
- 
- 
+import AudioPlayer from '@/components/AudioPlayer'
 
 const Page = () => {
   return (
     <div>
-       <CircularShapes/>
-   {/* <StopWatch/> */}
-  
+       <AudioPlayer/>
     </div>
   )
 }
